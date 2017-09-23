@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Feeds Form -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:scrollbars="vertical" >
+
+    <LinearLayout
+        android:id="@+id/scrollChild"
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            
+            <TextView
+                android:id="@+id/errorMsg"
+                style="@style/ErrorText"
+                android:text="@string/errorGpsDisabled"
+                android:layout_width="fill_parent"
+                android:layout_height="56dp" />
+            
+            <EditText
+                android:id="@+id/newFeed"
+                style="@style/TextLarg"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/gradient_box"
+                android:completionThreshold="1"
+                android:hint="@string/newFeed"
+                android:inputType="textMultiLine"
+                android:maxLength="10000"
+                android:maxLines="15"
+                android:minLines="3"
+                android:padding="5dp"
+                android:scrollbars="vertical"
+                android:textColorHint="@color/black" >
+            </EditText>
+
+            <HorizontalScrollView
+                android:id="@+id/feedImgsScrollLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:id="@+id/feedImgsListLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <LinearLayout
+                android:id="@+id/buttonFram"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dip" >
+
+                <fragment
+                    android:id="@+id/map"
+                    android:name="org.zagelnews.adapters.MySupportMapFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp" >
+                </fragment>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/feedButtonsListLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:padding="5dip" >
+
+                <Button
+                    android:id="@+id/sendFeed"
+                    style="@style/Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:text="@string/Send" />
+            </LinearLayout>
+        </LinearLayout>
+        <!-- Feeds Form Ends -->
+    </LinearLayout>
+
+</ScrollView>

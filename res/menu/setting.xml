@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+<!-- android:icon="@drawable/settings" -->
+    
+    
+    <item
+        android:title="@string/newFeed"
+        android:id="@+id/SettingNewFeed"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/new_status_s">
+    </item>    
+    
+    <item
+        android:title="@string/notification"
+        android:id="@+id/SettingUserFeedsNotifications"
+        android:showAsAction="always"
+        android:icon="@drawable/no_notifications">
+    </item>    
+
+           <item
+        android:id="@+id/three_dots_item"
+        android:showAsAction="always"
+        android:title="@string/vertical_ellipsis">
+        </item>
+        
+           
+</menu>

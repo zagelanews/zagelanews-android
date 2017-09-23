@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white" >
+
+        <!-- Header  Starts -->
+
+        <LinearLayout
+            android:id="@+id/header"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@layout/header_gradient"
+            android:paddingBottom="0dp"
+            android:paddingTop="0dp" >
+
+            <!-- Logo Start -->
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/cover" />
+            <!-- Logo Ends -->
+        </LinearLayout>
+        <!-- Register Form -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/header"
+            android:orientation="vertical"
+            android:padding="20dip" >
+
+            <TextView
+                android:id="@+id/register_error"
+                style="@style/ErrorText"
+                android:layout_width="fill_parent"
+                android:layout_height="56dp" />
+
+            <!-- USer Photo -->
+
+            <ImageView
+                android:id="@+id/userImage"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginEnd="10sp"
+                android:layout_marginLeft="4sp"
+                android:layout_marginRight="10sp"
+                android:layout_marginStart="4sp"
+                android:layout_marginTop="5dip"
+                android:contentDescription="@string/profilePhoto"
+                android:src="@drawable/def_user" >
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/clear"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:layout_marginEnd="10sp"
+                android:layout_marginLeft="4sp"
+                android:layout_marginRight="10sp"
+                android:layout_marginStart="4sp"
+                android:layout_marginTop="5dip"
+                android:contentDescription="@string/clear"
+                android:src="@drawable/no" >
+            </ImageView>
+
+            <!-- Email Label -->
+
+            <TextView
+                style="@style/TextLarg"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:layout_marginBottom="5dip"
+                android:text="@string/email" />
+
+            <EditText
+                android:id="@+id/email"
+                style="@style/TextMedium"
+                android:background="@drawable/gradient_box"
+                android:layout_width="fill_parent"
+                android:inputType="textEmailAddress"
+                android:maxLength="60"
+                android:singleLine="true" />
+
+            <!-- Password Label -->
+
+            <TextView
+                android:id="@+id/passwordView"
+                style="@style/TextLarg"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:layout_marginBottom="5dip"
+                android:text="@string/password" />
+
+            <EditText
+                android:id="@+id/password"
+                android:background="@drawable/gradient_box"
+                style="@style/TextMedium"
+                android:layout_width="fill_parent"
+                android:inputType="textPassword"
+                android:maxLength="25"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/passwordConfView"
+                style="@style/TextLarg"
+                android:layout_width="fill_parent"
+                android:layout_marginTop="10dip"
+                android:layout_marginBottom="5dip"
+                android:layout_height="wrap_content"
+                android:text="@string/passwordConf" />
+
+            <EditText
+                android:id="@+id/pwordConf"
+                android:background="@drawable/gradient_box"
+                style="@style/TextMedium"
+                android:layout_width="fill_parent"
+                android:inputType="textPassword"
+                android:maxLength="25"
+                android:singleLine="true" />
+
+            <!-- Full Name Label -->
+
+            <TextView
+                style="@style/TextLarg"
+                android:layout_width="fill_parent"
+                android:layout_marginTop="10dip"
+                android:layout_marginBottom="5dip"
+                android:layout_height="wrap_content"
+                android:text="@string/fName" />
+
+            <EditText
+                android:id="@+id/fname"
+                style="@style/TextMedium"
+                android:background="@drawable/gradient_box"
+                android:layout_width="fill_parent"
+                android:inputType="textCapWords"
+                android:maxLength="150"
+                android:singleLine="true" />
+
+            <!-- Register button -->
+
+            <Button
+                android:id="@+id/register"
+                style="@style/Button"
+                android:layout_marginTop="20dip"
+                android:layout_width="fill_parent"
+                android:text="@string/register" />
+
+            <!-- Back To Login button -->
+
+            <TextView
+                android:id="@+id/bktologin"
+                android:layout_marginTop="20dip"
+                android:layout_marginBottom="5dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/haveAccount"
+                android:textColor="#0b84aa"
+                android:textSize="20sp" />
+        </LinearLayout>
+        <!-- Login Form Ends -->
+    </RelativeLayout>
+
+</ScrollView>

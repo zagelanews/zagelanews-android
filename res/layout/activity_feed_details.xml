@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff" >
+
+    <!-- New Interest Form -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/scollRoot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_navyborder"
+            android:clickable="false"
+            android:focusable="false"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/card_navyborder"
+                android:clickable="false"
+                android:focusable="false"
+                android:orientation="vertical"
+                android:padding="5dp" >
+
+                <TextView
+                    android:id="@+id/intName"
+                    style="@style/TextMediumBold"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|center_horizontal" />
+
+                <LinearLayout
+                    android:id="@+id/imageNameDate"
+                    android:layout_width="fill_parent"
+                    android:layout_height="90dip"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:orientation="horizontal" >
+
+                    <!-- Feed Author image -->
+
+                    <ImageView
+                        android:id="@+id/userImage"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginEnd="10sp"
+                        android:layout_marginLeft="4sp"
+                        android:layout_marginRight="10sp"
+                        android:layout_marginStart="4sp"
+                        android:layout_marginTop="4sp"
+                        android:clickable="true"
+                        android:focusable="false"
+                        android:gravity="start"
+                        android:paddingEnd="5sp"
+                        android:paddingLeft="5sp"
+                        android:paddingRight="5sp"
+                        android:paddingStart="5sp"
+                        android:src="@drawable/def_user" >
+                    </ImageView>
+
+                    <LinearLayout
+                        android:id="@+id/nameDate"
+                        android:layout_width="fill_parent"
+                        android:layout_height="90dip"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:orientation="vertical" >
+
+                        <!-- Feed Full Name -->
+
+                        <TextView
+                            android:id="@+id/feedUserFullNameV"
+                            style="@style/TextSmallBold"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:clickable="false"
+                            android:focusable="false"
+                            android:gravity="left" >
+                        </TextView>
+
+                        <!-- Feed Date -->
+
+                        <TextView
+                            android:id="@+id/feedDateV"
+                            style="@style/TextSmall"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:clickable="false"
+                            android:focusable="false" >
+                        </TextView>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- Feed Text -->
+
+                <TextView
+                    android:id="@+id/feedTextV"
+                    style="@style/WhiteTextMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autoLink="web"
+                    android:clickable="true"
+                    android:focusable="false"
+                    android:scrollbars="vertical" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/feedTextE"
+                    style="@style/TextMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/border_edit"
+                    android:maxLength="800"
+                    android:visibility="gone" >
+                </EditText>
+
+                <HorizontalScrollView
+                    android:id="@+id/feedImgsScrollLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <LinearLayout
+                        android:id="@+id/feedImgsListLayout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:orientation="horizontal" >
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <!-- Like Count -->
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:orientation="vertical"
+                    android:paddingLeft="15sp"
+                     >
+
+                    <TextView
+                        android:id="@+id/voterCount"
+                        style="@style/WhiteTextMedium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:textColor="@color/dark_grey" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:paddingBottom="0dp"
+                    >
+
+                    <Button
+                        android:id="@+id/likeId"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.75"
+                        android:background="@drawable/grey_border_button"
+                        android:clickable="false"
+                        android:drawableEnd="@drawable/ok"
+                        android:drawableRight="@drawable/ok"
+                        android:focusable="false"
+                        android:text="@string/Like"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/accuracyPercentage"
+                        style="@style/TextMedium"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_weight="2"
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:paddingTop="0dp" >
+                    </TextView>
+
+                    <Button
+                        android:id="@+id/unLikeId"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="0.75"
+                        android:background="@drawable/grey_border_button"
+                        android:clickable="false"
+                        android:drawableLeft="@drawable/no"
+                        android:drawableStart="@drawable/no"
+                        android:focusable="false"
+                        android:text="@string/unLike"
+                        android:textSize="12sp" />
+
+                    <Button
+                        android:id="@+id/shareId"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="2.5"
+                        android:background="@drawable/grey_border_button"
+                        android:clickable="false"
+                        android:drawableLeft="@drawable/share"
+                        android:drawableStart="@drawable/share"
+                        android:focusable="false"
+                        android:paddingEnd="5dp"
+                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:text="@string/Share"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                    <Button
+                        android:id="@+id/commentId"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="2.5"
+                        android:background="@drawable/grey_border_button"
+                        android:clickable="false"
+                        android:drawableLeft="@drawable/comment"
+                        android:drawableStart="@drawable/comment"
+                        android:focusable="false"
+                        android:paddingEnd="5dp"
+                        android:paddingLeft="5dp"
+                        android:paddingStart="5dp"
+                        android:text="@string/Comment"
+                        android:textColor="@color/black"
+                        android:textSize="12sp" />
+
+                    <!-- New Interest Form Ends -->
+                </LinearLayout>
+
+                <fragment
+                    android:id="@+id/map"
+                    android:name="org.zagelnews.adapters.MySupportMapFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp" >
+                </fragment>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/delEditFeed"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:focusable="false"
+                android:padding="5dp" >
+
+                <Button
+                    android:id="@+id/editFeedId"
+                    style="@style/Button"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:text="@string/editFeed"
+                    android:textSize="12sp"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/delFeedId"
+                    style="@style/Button"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_weight="1"
+                    android:text="@string/delFeed"
+                    android:textSize="12sp"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

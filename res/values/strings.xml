@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="facebook_app_id">175884519145407</string>
+    
+
+    <string name="app_name">Zagela News</string>
+    <string name="inviteFriendsMsg">\nLet me recommend you this application\n\n</string>
+    <string name="action_settings">Settings</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="lists_settings">Lists</string>
+    <string name="vertical_ellipsis">&#8942;</string>
+    <string name="mangeGroupsMembership">Manage Group And Membership</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="notification">Notifications</string>
+    <string name="inviteFriends">Invite Friends</string>
+    <string name="search_title">Search</string>
+    
+    
+    
+
+    <!-- Error -->
+    <string name="MandatoryFields">All fields are mandatory</string>
+    <string name="netError">Error in network connection</string>
+    <string name="passwordMismatch">Passwords mismatch</string>
+    <string name="genError">General Error==>Try Again</string>
+    <string name="googleConnError">Error connecting to google map service</string>
+    <string name="missingInterestName">Interest name is mandatory</string>
+    <string name="missingInterestLocation">The location of interest is mandatory</string>
+    <string name="LocationErrorFeedNotSent">Error getting the curretn location (Feed not sent)</string>
+    <string name="noFavoritesSelected">No favorites have been selected</string>
+    <string name="noMemberSelected">No Member have been selected</string>
+    <string name="noOrgsSelected">No Groups have been selected</string>
+    <string name="errorSelectPic">Error while selecting the profile photo</string>
+    <string name="errorGpsDisabled">location Service is disabled</string>
+
+    <!-- **********************************************Register********************************************** -->
+
+
+    <!-- progreess bar -->
+    <string name="loading">Loading..</string>
+    <string name="netCheck">Checking Network</string>
+    <string name="contacting_server">Contacting Servers</string>
+    <string name="registering">Communication in progress..</string>
+    <string name="getData">Getting Data</string>
+    <string name="loadInfo">Loading Info</string>
+    <string name="sucessReg">Successfully Registered</string>
+    <string name="sucessDel">Successfully Deleted</string>
+
+    <!-- messages -->
+    <string name="registered"> Congratulations. You have Successfully Registered..</string>
+    <string name="regDetails">Your Registration Details</string>
+    <string name="isNewUser">New to Zagelnews? Register here</string>
+    <string name="sureExit">Are you sure you want to exit?</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    
+
+    <!-- Fields -->
+    <string name="fName">Full Name</string>
+    <string name="lName">Last Name</string>
+    <string name="email">Email</string>
+    <string name="userName">Username</string>
+    <string name="password">Password</string>
+    <string name="passwordConf">Password Confirmation</string>
+
+    <!-- Buttons -->
+    <string name="register">Register</string>
+    <string name="Send">Send</string>
+    <string name="pick_loc">News Location</string>
+    <string name="haveAccount">Already have account?</string>
+    <string name="login">Sign in</string>
+    <string name="fbLogin">Facebook Login</string>
+
+    <!-- **********************************************Login********************************************** -->
+
+    <string name="title_activity_interest">InterestActivity</string>
+    <string name="title_activity_new_interest">NewInterest</string>
+
+    <!-- **********************************************Interest********************************************** -->
+    <string name="delete">Delete?</string>
+    <string name="sure_delete">Are you sure you want to delete the selected items?</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="InterestName">Interest Name</string>
+    <string name="title_activity_feeds">Feeds</string>
+    <string name="title_activity_feed_details">News</string>
+    <string name="AddToFavorites">Favorite\'s Name</string>
+    <string name="getFeeds">News</string>
+    <string name="goToInterests">News</string>
+    <string name="Favorites">Favorites</string>
+    <string name="news_summary">Summary</string>
+    <string name="newFeed">You can write News here</string>
+    <string name="plcae_search">You can search for area here</string>
+    <string name="title_activity_interest_details">InterestDetails</string>
+    <string name="View">View</string>
+    <string name="Delete">Delete</string>
+    <string name="title_activity_image_upload">ImageUpload</string>
+    <string name="Back_to_Map">Back to Map</string>
+    <string name="backToFavorities">Back to Favorites</string>
+    <string name="News_map">News Map</string>
+    <string name="reset">Reset</string>
+    
+    <string name="Add_to_favorites">Save To Favorites</string>
+    <string name="Add_to_favorites_msg">You can save this area into the favorites for future access</string>
+    <string name="Contiue_To_News">Skip To News</string>
+    
+
+    <!-- User Profile -->
+    <string name="updateProfile">Update Profile</string>
+    <string name="browse">Browse</string>
+    <string name="clear">Clear</string>
+    <string name="profilePhoto">Profile Photo</string>
+    <string name="add">Add</string>
+    <string name="selectPic">Select Picture</string>
+    <string name="oldPassword">Old Password</string>
+    <string name="newPassword">New Password</string>
+    <string name="newPasswordConf">New Password Confirmation</string>
+    <string name="forgetEmailSent">An email has been sent to you with further instructions</string>
+    <string name="forgetPass">Forget your password?</string>
+
+    <!-- Settings -->
+    <string name="ChangePassword">Change Password</string>
+    <string name="ManageOrganization">Manage Group</string>
+    <string name="ManageMembership">Manage Membership</string>
+    <string name="title_activity_change_password">Change Password</string>
+    <string name="title_activity_forget_password">Forget Password</string>
+    <string name="Logout">Log Out</string>
+    <string name="My_News">My News</string>
+    <string name="My_Group_News">My Group News</string>
+    
+
+    <!-- Groups -->
+    <string name="title_activity_org_main_info">Group Info</string>
+    <string name="orgName">Group Name</string>
+    <string name="selectOrgName">&lt;Select Author&gt;</string>
+    <string name="orgDesc">Group Description</string>
+    <string name="orgPhoto">Group Photo</string>
+    <string name="saveContin">Save and Continue</string>
+    <string name="title_activity_member_list">Add Members</string>
+    <string name="newMember">Member Email</string>
+    <string name="finish">Finish</string>
+    <string name="Approve">Approve</string>
+    <string name="title_activity_org_list">Groups</string>
+    <string name="sucessApproved">Membership has been successfully approved</string>
+    
+	<!-- Feeds -->
+	<string name="Comment">Comment</string>
+	<string name="Comments">Comments</string>
+	<string name="Share">Share</string>
+	<string name="Like">+1</string>
+	<string name="positive_vote">positive vote</string>
+	<string name="negative_vote">negative vote</string>
+	<string name="unLike">-1</string>
+	<string name="FetchMoreFeeds">Fetch More News</string>
+	<string name="FetchMoreComments">Fetch More Comments</string>
+	<string name="YouHaveReceived">You have received </string>
+	<string name="OnYourNews">on your news: </string>
+	
+	<string name="feedDateTitle">News Date: </string>
+	<string name="feedAuthorFullNameTitle">Author Name: </string>
+	<string name="feedTextTitle">News Text: </string>
+	<string name="downloadLinkTitle">Application Link: </string>
+	<string name="sharignMsg">This News has been shared from </string>
+	<string name="noVoters">Voters: </string>
+	<string name="delFeed">Delete</string>
+	<string name="editFeed">Edit</string>
+	<string name="select_news_location">You can search for the News location, mark it, and send it</string>
+	<string name="feedType">Feed Type</string>
+	<string name="selectFeedType">&lt;Select Feed Type&gt;</string>
+	<string name="feedTextEmpty">News is mandatory ...</string>
+	<string name="locationEmpty">News Location is mandatory</string>
+	<string name="moreText">more</string>
+	
+	
+	
+	
+	
+	
+	
+	<!-- Maps -->
+    <!-- Messages -->
+    <string name="connected">Client connected</string>
+    <string name="connection_error_code_unknown">Unknown connection error code:  %1$d</string>
+    <string name="connection_failed">Connection failed</string>
+    <string name="disconnected">Client disconnected</string>
+    <string name="get_address">Get Address</string>
+    <string name="get_location">Get Location</string>
+    <string name="illegal_argument_exception">
+        Illegal arguments: Latitude %1$.8f Longitude %2$.8f
+    </string>
+    <string name="invalid_action">Invalid intent action %1$s</string>
+    <string name="invalid_integer_id">Invalid integer request ID: %1$s</string>
+    <string name="IO_Exception_getFromLocation">IO Exception in Geocoder.getFromLocation()</string>
+    <string name="location_requested">Periodic updates requested</string>
+    <string name="location_updated">Location updated</string>
+    <string name="location_update_error">Location update failed</string>
+    <string name="location_update_error_detail">
+        Location update error. code %1$d message %2$s
+    </string>
+    <string name="location_update_missing_update">
+        Location update error. No incoming location.
+    </string>
+    <string name="location_updates_stopped">Periodic updates stopped</string>
+    <string name="log_new_location">New location: %1$s</string>
+    <string name="no_address_found">No address found for location</string>
+    <string name="no_connection">No connection: Cannot request location</string>
+    <string name="no_geocoder_available">Cannot get address. No geocoder available.</string>
+    <string name="no_location_available">Location not available</string>
+    <string name="resolved">Error resolved. Please re-try operation.</string>
+    <string name="no_resolution">Google Play services: unable to resolve connection error.</string>
+    <string name="periodic_update_stop">Stopping periodic updates</string>
+    <string name="play_services_available">Google Play services is available</string>
+    <string name="request_location_updates_in_progress">
+        Can\'t request location updates, previous request hasn\'t finished
+    </string>
+    <string name="start_updates">Start Updates</string>
+    <string name="stop_updates">Stop Updates</string>
+    <string name="unknown">--Unknown--</string>
+    <string name="unknown_activity_request_code">
+        Received an unknown activity request code %1$d in onActivityResult.
+    </string>	
+    <string name="connection_error_code">Connection failure error code: %1$d</string>
+    <string name="connection_error_disabled">Google Play services is disabled</string>
+    <string name="connection_error_internal">An internal error occurred</string>
+    <string name="connection_error_invalid">The version of Google Play services on this device is not authentic</string>
+    <string name="connection_error_invalid_account">The specified account name is invalid</string>
+    <string name="connection_error_license_check_failed">The app is not licensed to the user</string>
+    <string name="connection_error_message">Connection failure error message: %1$s</string>
+    <string name="connection_error_misconfigured">The application is misconfigured</string>
+    <string name="connection_error_missing">Google Play services is missing</string>
+    <string name="connection_error_needs_resolution">Additional resolution is required</string>
+    <string name="connection_error_network">A network error occurred</string>
+    <string name="connection_error_outdated">Google Play services is out of date</string>
+    <string name="connection_error_sign_in_required">The user is not signed in</string>
+    <string name="connection_error_unknown">An unknown error occurred</string>    
+
+    
+    
+    <!-- New Feeds -->
+    <string name="groupSpinnerStr">Group: </string>
+    <string name="categoryStr">Category: </string>
+    <string name="voteReasonsStr">Vote Reason</string>
+</resources>

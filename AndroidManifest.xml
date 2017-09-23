@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.zagelnews.activities"
+    android:versionCode="12"
+    android:versionName="1.0.12" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="false"
+        android:theme="@style/jupiter" >
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="org.zagelnews.activities.users.UserNotificationsListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="org.zagelnews.activities.users.LoginActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.zagelnews.activities.SettingsActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="org.zagelnews.activities.users.RegisterActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="org.zagelnews.activities.users.ChangePasswordActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="org.zagelnews.activities.users.InterestsListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/Favorites"
+            android:parentActivityName="org.zagelnews.activities.feeds.MapActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/jupiter" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.zagelnews.activities.feeds.MapActivity" />
+        </activity>
+        <activity
+            android:name="org.zagelnews.activities.feeds.MapActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/jupiter" >
+        </activity>
+        <activity
+            android:name="org.zagelnews.activities.feeds.LocationPickup"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/jupiter" >
+        </activity>
+        <activity
+            android:name="org.zagelnews.activities.feeds.NewFeedActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/jupiter" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="???????????????????????????????????????" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="org.zagelnews.activities.feeds.FilteredFeedsListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_feeds"
+            android:parentActivityName="org.zagelnews.activities.feeds.MapActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/jupiter" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.zagelnews.activities.feeds.MapActvitiy" />
+        </activity>
+        <activity
+            android:name="org.zagelnews.activities.feeds.ProfileFeedsListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_feeds"
+            android:parentActivityName="org.zagelnews.activities.feeds.Feeds"
+            android:screenOrientation="portrait"
+            android:theme="@style/jupiter" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.zagelnews.activities.Feeds" />
+        </activity>
+        <activity
+            android:name="org.zagelnews.activities.feeds.MyGroupFeedsListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_feeds"
+            android:parentActivityName="org.zagelnews.activities.SettingsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/jupiter" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.zagelnews.activities.SettingsActivity" />
+        </activity>
+        <activity
+            android:name="org.zagelnews.activities.feeds.FeedCommentsActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label=""
+            android:parentActivityName="org.zagelnews.activities.feeds.MapActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.zagelnews.activities.Feeds" />
+        </activity>
+        <activity
+            android:name="org.zagelnews.activities.feeds.FeedDetailsActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_feed_details"
+            android:screenOrientation="portrait"
+            android:theme="@style/jupiter" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" >
+                </action>
+
+                <category android:name="android.intent.category.DEFAULT" >
+                </category>
+                <category android:name="android.intent.category.BROWSABLE" >
+                </category>
+
+                <data
+                    android:host="AWS_HOST_NAME"
+                    android:scheme="http" >
+                </data>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.zagelnews.activities.utils.FullscreenIntent"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/jupiter" >
+        </activity>
+        <activity
+            android:name="org.zagelnews.activities.users.InterestDetailsActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_interest_details"
+            android:parentActivityName="org.zagelnews.activities.InterestActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.zagelnews.activities.InterestActivity" />
+        </activity>
+        <activity
+            android:name="org.zagelnews.activities.users.ForgetPasswordActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_forget_password"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="org.zagelnews.activities.groups.OrgMainInfo"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_org_main_info"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="org.zagelnews.activities.groups.OrgMemberList"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_member_list"
+            android:parentActivityName="org.zagelnews.activities.groups.OrgMainInfo"
+            android:screenOrientation="portrait"
+            android:theme="@style/jupiter" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="org.zagelnews.activities.OrgMainInfo" />
+        </activity>
+        <activity
+            android:name="org.zagelnews.activities.groups.UserOrgsList"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_org_list"
+            android:screenOrientation="portrait"
+            android:theme="@style/jupiter" >
+        </activity>
+
+    </application>
+
+    
+        <uses-permission android:name="android.permission.INTERNET" />
+        <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+        <!-- Google maps -->
+        <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+        <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+        <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+</manifest>

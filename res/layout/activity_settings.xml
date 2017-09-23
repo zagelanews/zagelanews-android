@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dip" >
+
+            <TextView
+                android:id="@+id/listsSettingsId"
+                style="@style/LightGreyTextLarg"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:clickable="true"
+                android:focusable="false"
+                android:padding="10dp"
+                android:text="@string/lists_settings" >
+            </TextView>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dip" >
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/white_border_button_selector"
+                    android:clickable="true"
+                    android:src="@drawable/heart" />
+
+                <TextView
+                    android:id="@+id/favoritesId"
+                    style="@style/TextLarg"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:background="@drawable/white_border_button_selector"
+                    android:clickable="true"
+                    android:focusable="false"
+                    android:padding="10dp"
+                    android:text="@string/Favorites" >
+                </TextView>
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dip" >
+
+                <ImageView
+                    android:id="@+id/myNewsIdImg"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/white_border_button_selector"
+                    android:clickable="true"
+                    android:src="@drawable/icon" />
+
+                <TextView
+                    android:id="@+id/myNewsId"
+                    style="@style/TextLarg"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:background="@drawable/white_border_button_selector"
+                    android:clickable="true"
+                    android:focusable="false"
+                    android:padding="10dp"
+                    android:text="@string/My_News" >
+                </TextView>
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <!-- accountSettings -->
+
+            <TextView
+                android:id="@+id/accountSettingsId"
+                style="@style/LightGreyTextLarg"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:clickable="true"
+                android:focusable="false"
+                android:padding="10dp"
+                android:text="@string/account_settings" >
+            </TextView>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dip" >
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/white_border_button_selector"
+                    android:clickable="true"
+                    android:src="@drawable/def_user" />
+
+                <TextView
+                    android:id="@+id/updateProfileId"
+                    style="@style/TextLarg"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:background="@drawable/white_border_button_selector"
+                    android:clickable="true"
+                    android:focusable="false"
+                    android:padding="10dp"
+                    android:text="@string/updateProfile" >
+                </TextView>
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dip" >
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/white_border_button_selector"
+                    android:clickable="true"
+                    android:src="@drawable/passwordreset" />
+
+                <TextView
+                    android:id="@+id/changePasswordId"
+                    style="@style/TextLarg"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:background="@drawable/white_border_button_selector"
+                    android:clickable="true"
+                    android:focusable="false"
+                    android:padding="10dp"
+                    android:text="@string/ChangePassword" >
+                </TextView>
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dip" >
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/white_border_button_selector"
+                    android:clickable="true"
+                    android:src="@drawable/invite" />
+
+                <TextView
+                    android:id="@+id/inviteFriendsId"
+                    style="@style/TextLarg"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:background="@drawable/white_border_button_selector"
+                    android:clickable="true"
+                    android:focusable="false"
+                    android:padding="10dp"
+                    android:text="@string/inviteFriends" >
+                </TextView>
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dip" >
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/white_border_button_selector"
+                    android:clickable="true"
+                    android:src="@drawable/logout" />
+
+                <TextView
+                    android:id="@+id/logoutId"
+                    style="@style/TextLarg"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:background="@drawable/white_border_button_selector"
+                    android:clickable="true"
+                    android:focusable="false"
+                    android:padding="10dp"
+                    android:text="@string/Logout" >
+                </TextView>
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

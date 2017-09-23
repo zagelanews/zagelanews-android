@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:padding="10dip"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/newComment"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dip"
+        android:layout_marginTop="5dip"
+        android:background="@drawable/border_edit"
+        android:inputType="textMultiLine"
+        android:maxLength="800"
+        android:minLines="2"
+        android:textColor="@color/black" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/fetchMoreComments"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:layout_marginTop="20dip"
+        android:gravity="center"
+        android:text="@string/FetchMoreFeeds"
+        android:textColor="#0b84aa"
+        android:textSize="15sp" />    
+
+</LinearLayout>

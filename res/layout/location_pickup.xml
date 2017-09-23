@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff" >
+
+        <!-- New Interest Form -->
+
+        <LinearLayout
+            android:id="@+id/buttonFram"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+            <AutoCompleteTextView
+                android:id="@+id/geocode_input"
+                style="@style/TextLarg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:completionThreshold="1"
+                android:hint="@string/select_news_location" >
+
+                <requestFocus />
+            </AutoCompleteTextView>
+
+            <fragment
+                android:id="@+id/map"
+                android:name="org.zagelnews.adapters.MySupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </fragment>
+        </LinearLayout>
+        <!-- New Interest Form Ends -->
+
+    </RelativeLayout>
+
+</ScrollView>

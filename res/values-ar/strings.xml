@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="facebook_app_id">175884519145407</string>
+    
+
+    <string name="app_name">أخبار زاجلة</string>
+    <string name="inviteFriendsMsg">\nأدعوك لتجربة هذا البرنامج الرائع في نقل الاحداث\n\n</string>
+    <string name="action_settings">الإعدادات</string>
+        <string name="lists_settings">قوائم</string>
+    <string name="vertical_ellipsis">&#8942;</string>
+    <string name="account_settings">إعدادات الحساب</string>
+    <string name="mangeGroupsMembership">إعدادات المجموعات والعضويات</string>
+    <string name="notification">الإشعارات</string>
+    <string name="inviteFriends">دعوة الأصدقاء</string>
+    <string name="search_title">بحث</string>
+
+    <!-- Error -->
+    <string name="MandatoryFields">جميع الحقول مطلوبة</string>
+    <string name="netError">خطأ في الاتصال بالخادم</string>
+    <string name="passwordMismatch">كلمتا السر غير متطابقتين</string>
+    <string name="genError">خطأ عام. حاول مرة أخرى</string>
+    <string name="googleConnError">خطأ في الاتصال بالخريطة</string>
+    <string name="missingInterestName">اسم المفضلة مطلوب</string>
+    <string name="missingInterestLocation">الرجاء تحديد المنطقة المفضلة</string>
+    <string name="LocationErrorFeedNotSent">خطأ في الحصول على الموقع الحالي لك. لم يتم إرسال الخبر</string>
+    <string name="noFavoritesSelected">برجاء اختيار احدى المناطق من المفضلة</string>
+    <string name="noMemberSelected">برجاء اختيار العضو المراد حذفه</string>
+    <string name="noOrgsSelected">برجاء اختيار المجموعة</string>
+    <string name="errorSelectPic">خطأ في اختيار الصورة</string>
+    <string name="errorGpsDisabled">خدمة الوصول غير مفعلة</string>
+    
+
+    <!-- **********************************************Register********************************************** -->
+
+
+    <!-- progreess bar -->
+    <string name="loading">تحميل ...</string>
+    <string name="netCheck">التأكد من الشبكة...</string>
+    <string name="contacting_server">التواصل مع الخادم</string>
+    <string name="registering">جاري الاتصال...</string>
+    <string name="getData">الحصول على المعلومات</string>
+    <string name="loadInfo">تحميل المعلومات</string>
+    <string name="sucessReg">تم التسجيل بنجاح</string>
+    <string name="sucessDel">تم الحذف بنجاح</string>
+
+    <!-- messages -->
+    <string name="registered">مبروك تم تسجيلك بنجاح</string>
+    <string name="regDetails">معلوماتك</string>
+    <string name="isNewUser">مستخدم جديد؟سجل من هنا</string>
+    <string name="sureExit">هل تريد مغادرة البرنامج؟</string>
+    <string name="Yes">نعم</string>
+    <string name="No">لا</string>
+
+    <!-- Fields -->
+    <string name="fName">الاسم</string>
+    <string name="lName">الاسم الأخير</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="userName">اسم المستخدم</string>
+    <string name="password">كلمة المرور</string>
+    <string name="passwordConf">تأكيد كلمة المرور</string>
+
+    <!-- Buttons -->
+    <string name="register">تسجيل</string>
+    <string name="Send">إرسال</string>
+    <string name="pick_loc">موقع الخبر</string>
+    <string name="login">الدخول</string>
+	<string name="haveAccount">لديك حساب؟</string>
+    <string name="fbLogin">الدخول عن طريق حساب الفيس</string>
+
+    <!-- **********************************************Login********************************************** -->
+
+    <string name="title_activity_interest">المفضلة</string>
+    <string name="title_activity_new_interest">إضافة إلى المفضلة</string>
+
+    <!-- **********************************************Interest********************************************** -->
+    <string name="delete">حذف؟</string>
+    <string name="sure_delete">هل أنت متأكد من حذف العناصر المختارة؟</string>
+    <string name="cancel">إلغاء</string>
+    <string name="ok">موافق</string>
+    <string name="InterestName">إسم المفضلة</string>
+    <string name="title_activity_feeds">الأخبار</string>
+    <string name="title_activity_feed_details">الأخبار</string>
+    <string name="AddToFavorites">اسم المفضلة</string>
+    <string name="getFeeds">الأخبار</string>
+    <string name="goToInterests">الأخبار</string>
+    <string name="Favorites">المفضلة</string>
+    <string name="news_summary">ملخض الأخبار</string>
+    <string name="newFeed">يمكنك كتابة خبر جديد هنا</string>
+    <string name="plcae_search">يمكنك البحث عن المنطقة هنا لمتابعة أخبارها</string>
+    <string name="title_activity_interest_details">تفاصيل المفضلة</string>
+    <string name="View">عرض</string>
+    <string name="Delete">حذف</string>
+    <string name="title_activity_image_upload">تحميل الصورة</string>
+    <string name="Back_to_Map">العودة إلى الخريطة</string>
+    <string name="backToFavorities">العودة إلى المفضلة</string>
+    <string name="News_map">خريطة الأخبار</string>
+    
+    <string name="Add_to_favorites">احفظ في المفضلة</string>
+    <string name="Add_to_favorites_msg">يمكنك حفظ هذه المنطقة في المفضلة لتتمكن من عرض أخبارها بسهولة لاحقا</string>
+    <string name="Contiue_To_News">متابعة الأخبار</string>
+    <string name="reset">إعادة</string>
+    
+
+    <!-- User Profile -->
+    <string name="updateProfile">تعديل الملف الشخصى</string>
+    <string name="browse">استعراض</string>
+    <string name="clear">حذف</string>
+    <string name="profilePhoto">الصورة الشخصية</string>
+    <string name="add">إضافة</string>
+    <string name="selectPic">اختيار صورة</string>
+    <string name="oldPassword">كلمة المرور القديمة</string>
+    <string name="newPassword">كلمة المرور الجديدة</string>
+    <string name="newPasswordConf">تأكيد كلمة المرور الجديدة</string>
+    <string name="forgetEmailSent">تم إرسال بريد إلكتروني بالتعليمات المطلوبة لاستعادة كلمة المرور</string>
+    <string name="forgetPass">هل نسيت كلمة المرور؟</string>
+
+    <!-- Settings -->
+    <string name="ChangePassword">تغيير كلمة المرور</string>
+    <string name="ManageOrganization">إدارة المجموعات</string>
+    <string name="ManageMembership">إدارة العضوية</string>
+    <string name="title_activity_change_password">تغيير كلمة المرور</string>
+    <string name="title_activity_forget_password">نسيت كلمة المرور</string>
+    <string name="Logout">تسجيل الخروج</string>
+	<string name="My_News">أخباري</string>
+	<string name="My_Group_News">أخبار مجموعتي</string>
+    
+    
+    <!-- Organizations -->
+    <string name="title_activity_org_main_info">معلومات المجموعة</string>
+    <string name="orgName">اسم المجموعة</string>
+    <string name="selectOrgName">&lt;اختر صاحب الخبر&gt;</string>
+    <string name="orgDesc">وصف المجموعة</string>
+    <string name="orgPhoto">صورة المجموعة</string>
+    <string name="saveContin">حفظ واستمرار</string>
+    <string name="title_activity_member_list">إضافة أعضاء</string>
+    <string name="newMember">البريد الإلكتروني للمستخدم المراد إضافته</string>
+    <string name="finish">إنهاء</string>
+    <string name="Approve">موافقة</string>
+    <string name="title_activity_org_list">المجموعات</string>
+    <string name="sucessApproved">تم اعتماد العضوية بنجاح</string>
+    
+	<!-- Feeds -->
+	<string name="Comment">تعليق</string>
+	<string name="Comments">تعليقات</string>
+	<string name="Share">مشاركة</string>
+	<string name="Like">+1</string>
+	<string name="positive_vote">تقييم إيجابي</string>
+	<string name="negative_vote">تقييم سلبي</string>
+	<string name="unLike">-1</string>
+	<string name="FetchMoreFeeds">الحصول على المزيد من الأخبار</string>
+	<string name="FetchMoreComments">الحصول على المزيد من التعليقات</string>
+	<string name="YouHaveReceived">لقد تلقيت </string>
+	<string name="OnYourNews">على الخبر: </string>
+	
+	<string name="feedDateTitle">تاريخ الخبر: </string>
+	<string name="feedAuthorFullNameTitle">اسم ناشر الخبر: </string>
+	<string name="feedTextTitle">نص الخبر: </string>
+	<string name="downloadLinkTitle">رابط تنزيل البرنامج: </string>
+	<string name="sharignMsg">هذا الخبر تمت مشاركته عبر برنامج </string>
+	<string name="noVoters">المصوتون: </string>
+	<string name="delFeed">حذف</string>
+	<string name="editFeed">تعديل</string>
+	<string name="feedTextEmpty">نص الخبر مطلوب ...</string>
+	<string name="locationEmpty">موقع الخبر مطلوب</string>
+	<string name="moreText">المزيد</string>
+	<string name="select_news_location">يمكنك البحث عن موقع الخبر والضغط عليه ثم إرساله</string>
+	<string name="feedType">نوع الخبر</string>
+	<string name="selectFeedType">&lt;اختر نوع الخبر&gt;</string>
+	
+	
+    
+    
+    <!-- New Feeds -->
+    <string name="groupSpinnerStr">المجموعة: </string>
+    <string name="categoryStr">نوع الخبر: </string>
+    <string name="voteReasonsStr">سبب التصويت</string>
+</resources>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <color name="ora">#FFBB33</color>
+    <color name="blue">#0099CC</color>
+    <color name="dark_blue">#000014</color>
+    <color name="light_blue">#E6F2F2</color>
+    <color name="red">#800000</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#e0e0e0</color>
+    <color name="dark_grey">#868686</color>
+    <color name="light_grey">#ebebeb</color>
+    <color name="transparent_color">#00000000</color>
+    <color name="background">#e0e0e0</color>
+
+    <style name="venus">
+        <item name="android:textColor">@color/ora</item>
+        <item name="android:inputType">text</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="venus.center">
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="system" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="jupiter" parent="@android:style/Animation">
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <!-- set default widget styles -->
+        <item name="android:buttonStyle">@style/Button</item>
+        <item name="android:editTextStyle">@style/TextMedium</item>
+    </style>
+
+    <style name="Button" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/dark_blue</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:width">100dp</item>
+        <item name="android:height">30dp</item>
+    </style>
+
+    <style name="TextSmall" parent="@android:style/Widget.EditText">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="TextSmallBold" parent="@android:style/Widget.EditText">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="TextMedium" parent="@android:style/Widget.EditText">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@color/light_grey</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">13.5sp</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="WhiteTextMedium" parent="TextMedium">
+        <item name="android:background">@color/white</item>
+    </style>
+    
+    <style name="TextMediumBoldWithWhiteBackground" parent="@android:style/Widget.EditText">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">13.5sp</item>
+    </style>
+
+    <style name="TextMediumBold" parent="@android:style/Widget.EditText">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@color/background</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">13.5sp</item>
+    </style>
+
+    <style name="TextLarg" parent="@android:style/Widget.EditText">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+    
+    <style name="LightGreyTextLarg" parent="TextLarg">
+        <item name="android:background">@color/light_grey</item>
+                <item name="android:textColor">@color/dark_grey</item>
+        
+    </style>
+
+    <style name="TextLargBold" parent="@android:style/Widget.EditText">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="TextExtraLarg" parent="@android:style/Widget.EditText">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="ErrorText" parent="@android:style/Widget.EditText">
+        <item name="android:textColor">@color/red</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:spinnerDropDownItemStyle">@style/mySpinnerItemStyle</item>
+    </style>
+
+    <style name="mySpinnerItemStyle" parent="@android:style/Animation.Dialog">
+        <item name="android:textColor">@color/red</item>
+    </style>
+
+    <!-- actionbar -->
+
+    <style name="AlertDialogCustom" parent="jupiter"></style>
+
+</resources>

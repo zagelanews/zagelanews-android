@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff" >
+
+        <!-- New Interest Form -->
+
+        <LinearLayout
+            android:id="@+id/buttonFram"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+            <AutoCompleteTextView
+                android:id="@+id/geocode_input"
+                style="@style/TextLarg"
+                android:layout_height="32dp"
+                android:background="@drawable/gradient_box"
+                android:layout_width="match_parent"
+                android:completionThreshold="1"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:drawableLeft="@drawable/search" 
+                android:hint="@string/plcae_search" >
+
+                <requestFocus />
+            </AutoCompleteTextView>
+
+            <LinearLayout
+                android:id="@+id/buttonFramHor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dip" >
+
+                <Button
+                    android:id="@+id/getFeeds"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="10dip"
+                    android:layout_weight="0.5"
+                    style="@style/Button"
+                    android:text="@string/getFeeds" />
+
+                <!-- Go To the interest activity -->
+
+                <Button
+                    android:id="@+id/showSummaryId"
+                    android:layout_width="0dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dip"
+                    android:layout_weight="0.5"
+                    style="@style/Button"
+                    android:text="@string/news_summary" />
+
+                <!-- remove all circles -->
+
+                <Button
+                    android:id="@+id/resetMapId"
+                    style="@style/Button"
+                    android:layout_width="0dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dip"
+                    android:layout_weight="0.5"
+                    android:enabled="false"
+                    android:text="@string/reset"
+                     />
+            </LinearLayout>
+
+            <fragment
+                android:id="@+id/map"
+                android:name="org.zagelnews.adapters.MySupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </fragment>
+
+            <LinearLayout
+                android:id="@+id/buttonFramFooter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dip" >
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:contentDescription="@string/News_map"
+                    android:src="@drawable/icon" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:contentDescription="@string/newFeed"
+                    android:src="@drawable/new_status_s" />
+
+                <ImageButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:contentDescription="@string/notification"
+                    android:src="@drawable/notifications" />
+            </LinearLayout>
+        </LinearLayout>
+        <!-- New Interest Form Ends -->
+
+    </RelativeLayout>
+
+</ScrollView>
