@@ -1,5 +1,8 @@
 package org.zagelnews.tasks.feeds;
 
+import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.ArrayList;
 
 import org.json.JSONArray;
@@ -12,8 +15,13 @@ import org.zagelnews.dtos.feeds.FeedsSummaryDto;
 import org.zagelnews.dtos.geo.PointDto;
 import org.zagelnews.tasks.TaskIds;
 
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
 import android.widget.Toast;
+
+import com.google.android.gms.maps.model.BitmapDescriptor;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 
 /**
  * load the feeds for the given profile id
@@ -79,6 +87,33 @@ public class LoadFeedsSummaryTask extends AsyncTask<String,String,JSONArray>
 					
 					if(jsonObject.has("feedAuthorType")){
 						feedsSummaryDto.setFeedAuthorType(jsonObject.getInt("feedAuthorType"));
+					}
+					
+					if(jsonObject.has("authorSampleImageUrl")){
+						feedsSummaryDto.setAuthorSampleImageUrl(jsonObject.getString("authorSampleImageUrl"));
+						
+						BitmapDescriptor icon = null;
+						if(feedsSummaryDto.getAuthorSampleImageUrl()!=null&&feedsSummaryDto.getAuthorSampleImageUrl().trim().length()>0){
+							Bitmap bmp = null;
+							
+							try {
+								URL url = new URL(feedsSummaryDto.getAuthorSampleImageUrl());
+						        bmp = BitmapFactory.decodeStream(url.openConnection().getInputStream());
+
+							} catch (MalformedURLException e) {
+							} catch (IOException e) {
+							}
+
+							if(bmp!=null){
+								icon = BitmapDescriptorFactory.fromBitmap(bmp);
+							}else{
+								icon = BitmapDescriptorFactory.fromResource(R.drawable.icon);
+							}
+						}else{
+							icon = BitmapDescriptorFactory.fromResource(R.drawable.icon);
+						}
+
+						feedsSummaryDto.setAuthorSampleImageBitmap(icon);
 					}
 					
 					//get feed locations

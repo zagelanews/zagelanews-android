@@ -155,12 +155,18 @@ public class ServiceHandler {
 			jObj = new JSONObject(response);
 
 		} catch (UnsupportedEncodingException e) {
+			e.printStackTrace();
 		} catch (ClientProtocolException e) {
+			e.printStackTrace();
 			e=null;
 		} catch (IOException e) {
+			e.printStackTrace();
 			e= null;
 		} catch (JSONException e) {
+			e.printStackTrace();
 			e = null;
+		}catch (Throwable e) {
+			e.printStackTrace();
 		}
 
 		return jObj;

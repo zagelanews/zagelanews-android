@@ -4,10 +4,10 @@ package org.zagelnews.constants;
 public interface ServerConstants {
 
 	//API Server
-	public String SERVER_URL = "http://AWS_SERVER_NAME:8080";
+	public String SERVER_URL = "http://ec2-34-205-24-123.compute-1.amazonaws.com:8080";
 	
 	//Web Server
-	public String WEB_URL = "http://AWS_SERVER_NAME/";	
+	public String WEB_URL = "http://ec2-34-205-24-123.compute-1.amazonaws.com/";	
 	
 	
 	//S3

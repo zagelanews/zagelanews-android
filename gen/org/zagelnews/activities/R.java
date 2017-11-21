@@ -1792,46 +1792,46 @@ containing a value of this type.
         public static final int user_org_membership_menu=0x7f0d0005;
     }
     public static final class string {
-        public static final int AddToFavorites=0x7f060069;
-        public static final int Add_to_favorites=0x7f060078;
-        public static final int Add_to_favorites_msg=0x7f060079;
-        public static final int Approve=0x7f060097;
-        public static final int Back_to_Map=0x7f060074;
+        public static final int AddToFavorites=0x7f060068;
+        public static final int Add_to_favorites=0x7f060077;
+        public static final int Add_to_favorites_msg=0x7f060078;
+        public static final int Approve=0x7f060096;
+        public static final int Back_to_Map=0x7f060073;
         /**  Settings 
  Settings 
          */
-        public static final int ChangePassword=0x7f060086;
+        public static final int ChangePassword=0x7f060085;
         /**  Feeds 
  Feeds 
          */
-        public static final int Comment=0x7f06009a;
-        public static final int Comments=0x7f06009b;
-        public static final int Contiue_To_News=0x7f06007a;
-        public static final int Delete=0x7f060072;
-        public static final int Favorites=0x7f06006c;
-        public static final int FetchMoreComments=0x7f0600a2;
-        public static final int FetchMoreFeeds=0x7f0600a1;
-        public static final int IO_Exception_getFromLocation=0x7f0600bc;
-        public static final int InterestName=0x7f060066;
-        public static final int Like=0x7f06009d;
-        public static final int LocationErrorFeedNotSent=0x7f060040;
-        public static final int Logout=0x7f06008b;
-        public static final int ManageMembership=0x7f060088;
-        public static final int ManageOrganization=0x7f060087;
+        public static final int Comment=0x7f060099;
+        public static final int Comments=0x7f06009a;
+        public static final int Contiue_To_News=0x7f060079;
+        public static final int Delete=0x7f060071;
+        public static final int Favorites=0x7f06006b;
+        public static final int FetchMoreComments=0x7f0600a1;
+        public static final int FetchMoreFeeds=0x7f0600a0;
+        public static final int IO_Exception_getFromLocation=0x7f0600bb;
+        public static final int InterestName=0x7f060065;
+        public static final int Like=0x7f06009c;
+        public static final int LocationErrorFeedNotSent=0x7f06003f;
+        public static final int Logout=0x7f06008a;
+        public static final int ManageMembership=0x7f060087;
+        public static final int ManageOrganization=0x7f060086;
         /**  Error 
  Error 
          */
-        public static final int MandatoryFields=0x7f060039;
-        public static final int My_Group_News=0x7f06008d;
-        public static final int My_News=0x7f06008c;
-        public static final int News_map=0x7f060076;
-        public static final int No=0x7f060053;
-        public static final int OnYourNews=0x7f0600a4;
-        public static final int Send=0x7f06005b;
-        public static final int Share=0x7f06009c;
-        public static final int View=0x7f060071;
-        public static final int Yes=0x7f060052;
-        public static final int YouHaveReceived=0x7f0600a3;
+        public static final int MandatoryFields=0x7f060038;
+        public static final int My_Group_News=0x7f06008c;
+        public static final int My_News=0x7f06008b;
+        public static final int News_map=0x7f060075;
+        public static final int No=0x7f060052;
+        public static final int OnYourNews=0x7f0600a3;
+        public static final int Send=0x7f06005a;
+        public static final int Share=0x7f06009b;
+        public static final int View=0x7f060070;
+        public static final int Yes=0x7f060051;
+        public static final int YouHaveReceived=0x7f0600a2;
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
          */
         public static final int abc_action_bar_home_description=0x7f060021;
@@ -1872,21 +1872,21 @@ containing a value of this type.
         /**  Description of a share target (both in the list of such or the default share button) in a ShareActionProvider (share UI). [CHAR LIMIT=NONE] 
          */
         public static final int abc_shareactionprovider_share_with_application=0x7f06002b;
-        public static final int account_settings=0x7f060031;
-        public static final int action_settings=0x7f060030;
-        public static final int add=0x7f06007f;
-        public static final int app_name=0x7f06002e;
+        public static final int account_settings=0x7f060030;
+        public static final int action_settings=0x7f06002f;
+        public static final int add=0x7f06007e;
+        public static final int app_name=0x7f06002d;
         public static final int auth_client_needs_enabling_title=0x7f060001;
         public static final int auth_client_needs_installation_title=0x7f060002;
         public static final int auth_client_needs_update_title=0x7f060003;
         public static final int auth_client_play_services_err_notification_msg=0x7f060004;
         public static final int auth_client_requested_by_msg=0x7f060005;
         public static final int auth_client_using_bad_version_title=0x7f060000;
-        public static final int backToFavorities=0x7f060075;
-        public static final int browse=0x7f06007c;
-        public static final int cancel=0x7f060064;
-        public static final int categoryStr=0x7f0600e0;
-        public static final int clear=0x7f06007d;
+        public static final int backToFavorities=0x7f060074;
+        public static final int browse=0x7f06007b;
+        public static final int cancel=0x7f060063;
+        public static final int categoryStr=0x7f0600df;
+        public static final int clear=0x7f06007c;
         /**  Button in confirmation dialog to enable Google Play services.  Clicking it
         will direct user to application settings of Google Play services where they
         can enable it [CHAR LIMIT=40] 
@@ -1979,176 +1979,175 @@ containing a value of this type.
         /**  Maps 
  Messages 
          */
-        public static final int connected=0x7f0600b3;
-        public static final int connection_error_code=0x7f0600d1;
-        public static final int connection_error_code_unknown=0x7f0600b4;
-        public static final int connection_error_disabled=0x7f0600d2;
-        public static final int connection_error_internal=0x7f0600d3;
-        public static final int connection_error_invalid=0x7f0600d4;
-        public static final int connection_error_invalid_account=0x7f0600d5;
-        public static final int connection_error_license_check_failed=0x7f0600d6;
-        public static final int connection_error_message=0x7f0600d7;
-        public static final int connection_error_misconfigured=0x7f0600d8;
-        public static final int connection_error_missing=0x7f0600d9;
-        public static final int connection_error_needs_resolution=0x7f0600da;
-        public static final int connection_error_network=0x7f0600db;
-        public static final int connection_error_outdated=0x7f0600dc;
-        public static final int connection_error_sign_in_required=0x7f0600dd;
-        public static final int connection_error_unknown=0x7f0600de;
-        public static final int connection_failed=0x7f0600b5;
-        public static final int contacting_server=0x7f060048;
-        public static final int delFeed=0x7f0600ab;
+        public static final int connected=0x7f0600b2;
+        public static final int connection_error_code=0x7f0600d0;
+        public static final int connection_error_code_unknown=0x7f0600b3;
+        public static final int connection_error_disabled=0x7f0600d1;
+        public static final int connection_error_internal=0x7f0600d2;
+        public static final int connection_error_invalid=0x7f0600d3;
+        public static final int connection_error_invalid_account=0x7f0600d4;
+        public static final int connection_error_license_check_failed=0x7f0600d5;
+        public static final int connection_error_message=0x7f0600d6;
+        public static final int connection_error_misconfigured=0x7f0600d7;
+        public static final int connection_error_missing=0x7f0600d8;
+        public static final int connection_error_needs_resolution=0x7f0600d9;
+        public static final int connection_error_network=0x7f0600da;
+        public static final int connection_error_outdated=0x7f0600db;
+        public static final int connection_error_sign_in_required=0x7f0600dc;
+        public static final int connection_error_unknown=0x7f0600dd;
+        public static final int connection_failed=0x7f0600b4;
+        public static final int contacting_server=0x7f060047;
+        public static final int delFeed=0x7f0600aa;
         /**  **********************************************Interest********************************************** 
  **********************************************Interest********************************************** 
          */
-        public static final int delete=0x7f060062;
-        public static final int disconnected=0x7f0600b6;
-        public static final int downloadLinkTitle=0x7f0600a8;
-        public static final int editFeed=0x7f0600ac;
-        public static final int email=0x7f060056;
-        public static final int errorGpsDisabled=0x7f060045;
-        public static final int errorSelectPic=0x7f060044;
+        public static final int delete=0x7f060061;
+        public static final int disconnected=0x7f0600b5;
+        public static final int downloadLinkTitle=0x7f0600a7;
+        public static final int editFeed=0x7f0600ab;
+        public static final int email=0x7f060055;
+        public static final int errorGpsDisabled=0x7f060044;
+        public static final int errorSelectPic=0x7f060043;
         /**  Fields 
  Fields 
          */
-        public static final int fName=0x7f060054;
-        public static final int facebook_app_id=0x7f06002d;
-        public static final int fbLogin=0x7f06005f;
-        public static final int feedAuthorFullNameTitle=0x7f0600a6;
-        public static final int feedDateTitle=0x7f0600a5;
-        public static final int feedTextEmpty=0x7f0600b0;
-        public static final int feedTextTitle=0x7f0600a7;
-        public static final int feedType=0x7f0600ae;
-        public static final int finish=0x7f060096;
-        public static final int forgetEmailSent=0x7f060084;
-        public static final int forgetPass=0x7f060085;
-        public static final int genError=0x7f06003c;
-        public static final int getData=0x7f06004a;
-        public static final int getFeeds=0x7f06006a;
-        public static final int get_address=0x7f0600b7;
-        public static final int get_location=0x7f0600b8;
-        public static final int goToInterests=0x7f06006b;
-        public static final int googleConnError=0x7f06003d;
+        public static final int fName=0x7f060053;
+        public static final int fbLogin=0x7f06005e;
+        public static final int feedAuthorFullNameTitle=0x7f0600a5;
+        public static final int feedDateTitle=0x7f0600a4;
+        public static final int feedTextEmpty=0x7f0600af;
+        public static final int feedTextTitle=0x7f0600a6;
+        public static final int feedType=0x7f0600ad;
+        public static final int finish=0x7f060095;
+        public static final int forgetEmailSent=0x7f060083;
+        public static final int forgetPass=0x7f060084;
+        public static final int genError=0x7f06003b;
+        public static final int getData=0x7f060049;
+        public static final int getFeeds=0x7f060069;
+        public static final int get_address=0x7f0600b6;
+        public static final int get_location=0x7f0600b7;
+        public static final int goToInterests=0x7f06006a;
+        public static final int googleConnError=0x7f06003c;
         /**  New Feeds 
  New Feeds 
          */
-        public static final int groupSpinnerStr=0x7f0600df;
-        public static final int haveAccount=0x7f06005d;
-        public static final int hello_world=0x7f060035;
-        public static final int illegal_argument_exception=0x7f0600b9;
-        public static final int invalid_action=0x7f0600ba;
-        public static final int invalid_integer_id=0x7f0600bb;
-        public static final int inviteFriends=0x7f060037;
-        public static final int inviteFriendsMsg=0x7f06002f;
-        public static final int isNewUser=0x7f060050;
-        public static final int lName=0x7f060055;
-        public static final int lists_settings=0x7f060032;
-        public static final int loadInfo=0x7f06004b;
+        public static final int groupSpinnerStr=0x7f0600de;
+        public static final int haveAccount=0x7f06005c;
+        public static final int hello_world=0x7f060034;
+        public static final int illegal_argument_exception=0x7f0600b8;
+        public static final int invalid_action=0x7f0600b9;
+        public static final int invalid_integer_id=0x7f0600ba;
+        public static final int inviteFriends=0x7f060036;
+        public static final int inviteFriendsMsg=0x7f06002e;
+        public static final int isNewUser=0x7f06004f;
+        public static final int lName=0x7f060054;
+        public static final int lists_settings=0x7f060031;
+        public static final int loadInfo=0x7f06004a;
         /**  **********************************************Register********************************************** 
  progreess bar 
  **********************************************Register********************************************** 
  progreess bar 
          */
-        public static final int loading=0x7f060046;
-        public static final int locationEmpty=0x7f0600b1;
-        public static final int location_requested=0x7f0600bd;
-        public static final int location_update_error=0x7f0600bf;
-        public static final int location_update_error_detail=0x7f0600c0;
-        public static final int location_update_missing_update=0x7f0600c1;
-        public static final int location_updated=0x7f0600be;
-        public static final int location_updates_stopped=0x7f0600c2;
-        public static final int log_new_location=0x7f0600c3;
-        public static final int login=0x7f06005e;
-        public static final int mangeGroupsMembership=0x7f060034;
-        public static final int missingInterestLocation=0x7f06003f;
-        public static final int missingInterestName=0x7f06003e;
-        public static final int moreText=0x7f0600b2;
-        public static final int negative_vote=0x7f06009f;
-        public static final int netCheck=0x7f060047;
-        public static final int netError=0x7f06003a;
-        public static final int newFeed=0x7f06006e;
-        public static final int newMember=0x7f060095;
-        public static final int newPassword=0x7f060082;
-        public static final int newPasswordConf=0x7f060083;
-        public static final int news_summary=0x7f06006d;
-        public static final int noFavoritesSelected=0x7f060041;
-        public static final int noMemberSelected=0x7f060042;
-        public static final int noOrgsSelected=0x7f060043;
-        public static final int noVoters=0x7f0600aa;
-        public static final int no_address_found=0x7f0600c4;
-        public static final int no_connection=0x7f0600c5;
-        public static final int no_geocoder_available=0x7f0600c6;
-        public static final int no_location_available=0x7f0600c7;
-        public static final int no_resolution=0x7f0600c9;
-        public static final int notification=0x7f060036;
-        public static final int ok=0x7f060065;
-        public static final int oldPassword=0x7f060081;
-        public static final int orgDesc=0x7f060091;
-        public static final int orgName=0x7f06008f;
-        public static final int orgPhoto=0x7f060092;
-        public static final int password=0x7f060058;
-        public static final int passwordConf=0x7f060059;
-        public static final int passwordMismatch=0x7f06003b;
-        public static final int periodic_update_stop=0x7f0600ca;
-        public static final int pick_loc=0x7f06005c;
-        public static final int play_services_available=0x7f0600cb;
-        public static final int plcae_search=0x7f06006f;
-        public static final int positive_vote=0x7f06009e;
-        public static final int profilePhoto=0x7f06007e;
-        public static final int regDetails=0x7f06004f;
+        public static final int loading=0x7f060045;
+        public static final int locationEmpty=0x7f0600b0;
+        public static final int location_requested=0x7f0600bc;
+        public static final int location_update_error=0x7f0600be;
+        public static final int location_update_error_detail=0x7f0600bf;
+        public static final int location_update_missing_update=0x7f0600c0;
+        public static final int location_updated=0x7f0600bd;
+        public static final int location_updates_stopped=0x7f0600c1;
+        public static final int log_new_location=0x7f0600c2;
+        public static final int login=0x7f06005d;
+        public static final int mangeGroupsMembership=0x7f060033;
+        public static final int missingInterestLocation=0x7f06003e;
+        public static final int missingInterestName=0x7f06003d;
+        public static final int moreText=0x7f0600b1;
+        public static final int negative_vote=0x7f06009e;
+        public static final int netCheck=0x7f060046;
+        public static final int netError=0x7f060039;
+        public static final int newFeed=0x7f06006d;
+        public static final int newMember=0x7f060094;
+        public static final int newPassword=0x7f060081;
+        public static final int newPasswordConf=0x7f060082;
+        public static final int news_summary=0x7f06006c;
+        public static final int noFavoritesSelected=0x7f060040;
+        public static final int noMemberSelected=0x7f060041;
+        public static final int noOrgsSelected=0x7f060042;
+        public static final int noVoters=0x7f0600a9;
+        public static final int no_address_found=0x7f0600c3;
+        public static final int no_connection=0x7f0600c4;
+        public static final int no_geocoder_available=0x7f0600c5;
+        public static final int no_location_available=0x7f0600c6;
+        public static final int no_resolution=0x7f0600c8;
+        public static final int notification=0x7f060035;
+        public static final int ok=0x7f060064;
+        public static final int oldPassword=0x7f060080;
+        public static final int orgDesc=0x7f060090;
+        public static final int orgName=0x7f06008e;
+        public static final int orgPhoto=0x7f060091;
+        public static final int password=0x7f060057;
+        public static final int passwordConf=0x7f060058;
+        public static final int passwordMismatch=0x7f06003a;
+        public static final int periodic_update_stop=0x7f0600c9;
+        public static final int pick_loc=0x7f06005b;
+        public static final int play_services_available=0x7f0600ca;
+        public static final int plcae_search=0x7f06006e;
+        public static final int positive_vote=0x7f06009d;
+        public static final int profilePhoto=0x7f06007d;
+        public static final int regDetails=0x7f06004e;
         /**  Buttons 
  Buttons 
          */
-        public static final int register=0x7f06005a;
+        public static final int register=0x7f060059;
         /**  messages 
  messages 
          */
-        public static final int registered=0x7f06004e;
-        public static final int registering=0x7f060049;
-        public static final int request_location_updates_in_progress=0x7f0600cc;
-        public static final int reset=0x7f060077;
-        public static final int resolved=0x7f0600c8;
-        public static final int saveContin=0x7f060093;
-        public static final int search_title=0x7f060038;
-        public static final int selectFeedType=0x7f0600af;
-        public static final int selectOrgName=0x7f060090;
-        public static final int selectPic=0x7f060080;
-        public static final int select_news_location=0x7f0600ad;
-        public static final int sharignMsg=0x7f0600a9;
-        public static final int start_updates=0x7f0600cd;
-        public static final int stop_updates=0x7f0600ce;
-        public static final int sucessApproved=0x7f060099;
-        public static final int sucessDel=0x7f06004d;
-        public static final int sucessReg=0x7f06004c;
-        public static final int sureExit=0x7f060051;
-        public static final int sure_delete=0x7f060063;
-        public static final int title_activity_change_password=0x7f060089;
-        public static final int title_activity_feed_details=0x7f060068;
-        public static final int title_activity_feeds=0x7f060067;
-        public static final int title_activity_forget_password=0x7f06008a;
-        public static final int title_activity_image_upload=0x7f060073;
+        public static final int registered=0x7f06004d;
+        public static final int registering=0x7f060048;
+        public static final int request_location_updates_in_progress=0x7f0600cb;
+        public static final int reset=0x7f060076;
+        public static final int resolved=0x7f0600c7;
+        public static final int saveContin=0x7f060092;
+        public static final int search_title=0x7f060037;
+        public static final int selectFeedType=0x7f0600ae;
+        public static final int selectOrgName=0x7f06008f;
+        public static final int selectPic=0x7f06007f;
+        public static final int select_news_location=0x7f0600ac;
+        public static final int sharignMsg=0x7f0600a8;
+        public static final int start_updates=0x7f0600cc;
+        public static final int stop_updates=0x7f0600cd;
+        public static final int sucessApproved=0x7f060098;
+        public static final int sucessDel=0x7f06004c;
+        public static final int sucessReg=0x7f06004b;
+        public static final int sureExit=0x7f060050;
+        public static final int sure_delete=0x7f060062;
+        public static final int title_activity_change_password=0x7f060088;
+        public static final int title_activity_feed_details=0x7f060067;
+        public static final int title_activity_feeds=0x7f060066;
+        public static final int title_activity_forget_password=0x7f060089;
+        public static final int title_activity_image_upload=0x7f060072;
         /**  **********************************************Login********************************************** 
  **********************************************Login********************************************** 
          */
-        public static final int title_activity_interest=0x7f060060;
-        public static final int title_activity_interest_details=0x7f060070;
-        public static final int title_activity_member_list=0x7f060094;
-        public static final int title_activity_new_interest=0x7f060061;
-        public static final int title_activity_org_list=0x7f060098;
+        public static final int title_activity_interest=0x7f06005f;
+        public static final int title_activity_interest_details=0x7f06006f;
+        public static final int title_activity_member_list=0x7f060093;
+        public static final int title_activity_new_interest=0x7f060060;
+        public static final int title_activity_org_list=0x7f060097;
         /**  Groups 
  Organizations 
          */
-        public static final int title_activity_org_main_info=0x7f06008e;
-        public static final int unLike=0x7f0600a0;
-        public static final int unknown=0x7f0600cf;
-        public static final int unknown_activity_request_code=0x7f0600d0;
+        public static final int title_activity_org_main_info=0x7f06008d;
+        public static final int unLike=0x7f06009f;
+        public static final int unknown=0x7f0600ce;
+        public static final int unknown_activity_request_code=0x7f0600cf;
         /**  User Profile 
  User Profile 
          */
-        public static final int updateProfile=0x7f06007b;
-        public static final int userName=0x7f060057;
-        public static final int vertical_ellipsis=0x7f060033;
-        public static final int voteReasonsStr=0x7f0600e1;
+        public static final int updateProfile=0x7f06007a;
+        public static final int userName=0x7f060056;
+        public static final int vertical_ellipsis=0x7f060032;
+        public static final int voteReasonsStr=0x7f0600e0;
         /**  Text on a placeholder buy button when Google Play services is not
          available or up-to-date 
          */

@@ -23,6 +23,7 @@ import android.content.Intent;
 import android.location.Location;
 import android.location.LocationManager;
 import android.os.Bundle;
+import android.os.StrictMode;
 import android.provider.Settings;
 import android.text.InputType;
 import android.view.View;
@@ -37,7 +38,6 @@ import android.widget.Toast;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap.OnMarkerClickListener;
 import com.google.android.gms.maps.GoogleMap.OnMarkerDragListener;
-import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
@@ -62,6 +62,12 @@ public class MapActivity extends BaseFragmentActivity implements OnMarkerDragLis
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_new_interest);
+
+        if (android.os.Build.VERSION.SDK_INT > 9)
+        {
+            StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+            StrictMode.setThreadPolicy(policy);
+        }
 
 		try { 
 
@@ -391,7 +397,7 @@ public class MapActivity extends BaseFragmentActivity implements OnMarkerDragLis
 					MarkerOptions markerOptions = new MarkerOptions()
 					.position(new LatLng(pointDto.getLatitude(), pointDto.getLongitude()))
 					.draggable(false)
-					.icon(BitmapDescriptorFactory.fromResource(R.drawable.icon));
+					.icon(dto.getAuthorSampleImageBitmap());
 					googleMap.addMarker(markerOptions);
 				}
 			}

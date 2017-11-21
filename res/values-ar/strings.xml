@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     
-    <string name="facebook_app_id">175884519145407</string>
-    
-
     <string name="app_name">أخبار زاجلة</string>
     <string name="inviteFriendsMsg">\nأدعوك لتجربة هذا البرنامج الرائع في نقل الاحداث\n\n</string>
     <string name="action_settings">الإعدادات</string>
