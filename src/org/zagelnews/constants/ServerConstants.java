@@ -1,7 +1,7 @@
 package org.zagelnews.constants;
 
 
-public interface ServerConstants {
+public interface ServerConstants { 
 
 	//API Server
 	public String SERVER_URL = "http://AWS_HOST:8080";
