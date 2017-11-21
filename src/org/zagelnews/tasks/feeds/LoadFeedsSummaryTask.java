@@ -96,7 +96,7 @@ public class LoadFeedsSummaryTask extends AsyncTask<String,String,JSONArray>
 						if(feedsSummaryDto.getAuthorSampleImageUrl()!=null&&feedsSummaryDto.getAuthorSampleImageUrl().trim().length()>0){
 							Bitmap bmp = null;
 							
-							try {
+							try { 
 								URL url = new URL(feedsSummaryDto.getAuthorSampleImageUrl());
 						        bmp = BitmapFactory.decodeStream(url.openConnection().getInputStream());
 
